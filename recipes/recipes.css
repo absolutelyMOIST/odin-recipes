@@ -1,0 +1,56 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to bottom, #2c2f33, #7289da);
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .header {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .recipe-title {
+    color: #99aab5;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  .description,
+  .ingredients,
+  .steps {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #5d4e6d; /* Muted purple background */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .recipe-header {
+    color: #99aab5;
+  }
+  
+  ul,
+  ol {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .ingredients li,
+  .steps li {
+    margin: 10px 0;
+  }
+  
